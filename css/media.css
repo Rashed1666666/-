@@ -1,0 +1,37 @@
+
+/*smart phones and tablets*/
+@media(max-width:767px)
+{
+    .heading
+    {
+        height: 150px;
+    }
+    .heading img
+    {
+        width: 100%;
+    }
+    .middle img
+    {
+        width: 306px;
+    }
+    .footer .btn1
+    {
+        margin-bottom: 25px;
+    }
+    .footer .social
+    {
+        font-size: 11px;
+    }
+}
+/*small screen*/
+@media(min-width:768px) and (max-width:1023px)
+{
+    .footer ul
+    {
+        margin-left: 130px;
+    }
+    .footer .btn1
+    {
+        margin-bottom: 25px;
+    }
+}

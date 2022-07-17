@@ -1,0 +1,89 @@
+body
+{
+    font-family: 'Cairo', sans-serif;
+}
+
+/*start heading*/
+.heading
+{
+   height: 86px;
+   background-color: #90bae3;
+}
+.heading img
+{
+    height: 109px;
+}
+/*end heading*/
+
+/*start middle*/
+.middle
+{
+    height: 250px;
+    background-color:#3c5b9a;
+}
+.middle img
+{
+    margin-top: -54px;
+    height: 370px;
+}
+/*end middle*/
+
+/*start footer*/
+.footer
+{
+    height: 55%;
+    background-color:#90bae3;
+}
+.footer p
+{
+    font-size: 18px;
+    color: #3c5b9a;
+}
+.footer .btn1
+{
+    width: 220px;
+    border-radius: 27px;
+    background-color:#3c5b9a;
+    border: 0;
+    color:#fff;
+}
+.footer .btn2
+{
+    width: 220px;
+    border-radius: 27px;
+    background-color:#fff;
+    border: 0;
+    color: #3c5b9a;
+}
+.footer ul
+{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.footer ul img
+{
+    height: 40px;
+    width: 40px;
+}
+.footer .social-list {
+    overflow: hidden;
+    margin-top: 0 ;
+}
+.footer .social-list li {
+    float: left;
+    margin-right: 5px;
+    opacity: 0.7;
+    filter: :alpha(opacity=70);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.footer .social-list li:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*end footer*/
+
